@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <rect width="1200" height="600" fill="#f4f7fa" />
+  <g fill="#005c3d" font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="120" font-size="44" font-weight="700">Parastatals and Public Service Delivery</text>
+    <text x="60" y="190" font-size="22">Roles, examples and how they reach citizens</text>
+  </g>
+  <rect x="920" y="400" width="220" height="120" rx="12" fill="#008751" opacity="0.12" />
+</svg>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | Nigerian Ministries & Parastatals</title>
+    <link href="img/ngn.png" rel="icon" />
+    <link href="img/ngn.png" rel="apple-touch-icon" />
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3081095959247436"
+     crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-3081095959247436">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f4f7fa;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #008751, #000);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .error-card {
+            background: white;
+            border-radius: 12px;
+            padding: 50px 40px;
+            text-align: center;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .error-code {
+            font-size: 6rem;
+            font-weight: bold;
+            color: #008751;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        .error-card h2 {
+            color: #333;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .error-card p {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .btn-home {
+            display: inline-block;
+            background: #008751;
+            color: white;
+            text-decoration: none;
+            padding: 14px 32px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+
+        .btn-home:hover {
+            background: #005c3d;
+        }
+
+        footer {
+            background: #000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nigerian Ministries & Parastatals</h1>
+    </header>
+
+    <div class="container">
+        <div class="error-card">
+            <div class="error-code">404</div>
+            <h2>Page Not Found</h2>
+            <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+            <a href="/" class="btn-home">Return to Homepage</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Nigerian Ministries & Parastatals Information Portal</p>
+        <p>Educational website for learning about Nigerian government institutions.</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <rect width="1200" height="600" fill="#f0fff7" />
+  <g fill="#00664d" font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="120" font-size="44" font-weight="700">Digital Economy &amp; Government Services</text>
+    <text x="60" y="190" font-size="22">How digital platforms change public service delivery</text>
+  </g>
+  <rect x="920" y="420" width="220" height="120" rx="12" fill="#9fe7c2" opacity="0.8" />
+</svg>

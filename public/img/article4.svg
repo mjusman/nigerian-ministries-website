@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <rect width="1200" height="600" fill="#fff8f0" />
+  <g fill="#b35400" font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="120" font-size="44" font-weight="700">Understanding the Federal Budget Process</text>
+    <text x="60" y="190" font-size="22">How budgets are made, approved and spent in Nigeria</text>
+  </g>
+  <rect x="920" y="420" width="220" height="120" rx="12" fill="#ffc38f" opacity="0.8" />
+</svg>

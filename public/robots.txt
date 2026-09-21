@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nigerian-info.web.app/sitemap.xml
+
