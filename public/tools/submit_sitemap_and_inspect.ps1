@@ -66,7 +66,7 @@ function Inspect-Url {
     $json | Out-File -FilePath $filename -Encoding utf8
     Write-Output "Inspection saved to $filename"
   } catch {
-    Write-Output "Inspection failed for $url: $($_.Exception.Message)"
+    Write-Output "Inspection failed for ${url}: $($_.Exception.Message)"
     if ($_.Exception.Response) {
       $txt = $_.Exception.Response.GetResponseStream()
       $sr = New-Object System.IO.StreamReader($txt)
